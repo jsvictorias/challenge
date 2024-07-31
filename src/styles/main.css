@@ -1,0 +1,36 @@
+.title {
+    text-align: center;
+    margin-top: 2%;
+}
+.main-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+.container {
+    height: 70vh;
+    width: 80%;
+    background-color: white;
+    border-radius: 15px;
+}
+.icon {
+    font-size: 15rem;
+    color: rgb(236, 72, 127);
+    margin-right: 2%;
+}
+.produtos {
+    display: flex;
+    justify-content: space-between;
+    font-size: 4rem;
+}
+.add {
+    margin-right: 2%;
+    margin-top: 2%;
+    transition: all 1s;
+}
+.add:hover{
+    background-color: rgb(236, 72, 127);
+}
+.add:active{
+    transform: scale(2);
+}

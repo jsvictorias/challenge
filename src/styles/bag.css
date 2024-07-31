@@ -1,0 +1,15 @@
+.title-bag {
+    text-align: center;
+    margin-top: 2%;
+}
+.main-container-bag {
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+.container-bag {
+    height: 70vh;
+    width: 80%;
+    background-color: white;
+    border-radius: 15px;
+}
