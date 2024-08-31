@@ -1,6 +1,7 @@
 .title {
     text-align: center;
     margin-top: 2%;
+    color: #fff;
 }
 .main-container {
     display: flex;
@@ -15,8 +16,13 @@
 }
 .icon {
     font-size: 15rem;
-    color: rgb(236, 72, 127);
-    margin-right: 2%;
+    color: #fff;
+    margin-left:30%;
+    transition: all 1s;
+}
+.icon:hover{
+    transform: scale(1.2);
+    cursor: pointer;
 }
 .produtos {
     display: flex;
@@ -29,7 +35,8 @@
     transition: all 1s;
 }
 .add:hover{
-    background-color: rgb(236, 72, 127);
+    background-color: #b56e85 ;
+    color: #fff;
 }
 .add:active{
     transform: scale(2);
